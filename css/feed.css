@@ -1,0 +1,27 @@
+.action-bar{
+    border: 1px solid black;
+    grid-area: footer;
+}
+.card{
+    display: grid;
+    grid-template-rows:[row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
+    border: 1px solid black;
+    grid-template-areas: "header main footer";
+    
+}
+/* .feed-content{
+    border: 1px solid red;
+}
+.card-text{
+    border: 1px solid green;
+} */
+.top{
+    border: 1px solid purple;
+    
+    
+}
+.header-content{
+    display:grid;
+    
+    border: 1px solid rgb(28, 42, 203);
+}
