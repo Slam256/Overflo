@@ -1,27 +1,44 @@
+*{
+    margin:0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --xanadu: hsla(123, 9%, 48%, 1);
+    --carrot-orange: hsla(36, 99%, 47%, 1);
+    --cornsilk: hsla(53, 94%, 93%, 1);
+    --persian-blue:hsla(210, 100%, 13%, 1);
+    --bdazzeled-blue:hsla(209, 59%, 34%, 1);
+
+    --timberwolf: hsla(46, 15%, 83%, 1);
+    --laurel-green: hsla(82, 20%, 62%, 1);
+    --fern-green: hsla(119, 19%, 42%, 1);
+    --hunter-green: hsla(131, 22%, 29%, 1);
+    --brunswick-green: hsla(150, 20%, 25%, 1);
+
+    --outer-space-crayola: hsla(194, 33%, 18%, 1);
+    --teal-blue: hsla(195, 37%, 40%, 1);
+    --green-sheen: hsla(172, 25%, 55%, 1);
+    --cambridge-blue: hsla(129, 22%, 69%, 1);
+    --tea-green: hsla(95, 32%, 82%, 1);   
+    }
+body{
+    background-color: var(--cornsilk);
+    margin: 15px;
+}
+.main{
+    display: grid;
+    justify-content: center;
+
+}
 .action-bar{
-    border: 1px solid black;
-    grid-area: footer;
+    padding: 5px;
 }
 .card{
-    display: grid;
-    grid-template-rows:[row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
-    border: 1px solid black;
-    grid-template-areas: "header main footer";
+    margin:0 auto;
+    border: 1px solid var(--tea-green);
+    max-width: 448px;
+    background-color: var(--tea-green);
+    border-radius: 10px;
     
-}
-/* .feed-content{
-    border: 1px solid red;
-}
-.card-text{
-    border: 1px solid green;
-} */
-.top{
-    border: 1px solid purple;
-    
-    
-}
-.header-content{
-    display:grid;
-    
-    border: 1px solid rgb(28, 42, 203);
 }
